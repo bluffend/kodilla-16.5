@@ -1,7 +1,7 @@
 main {
   width: 800px;
   height: 500px;
-  background-color: #0275d8;
+  background-color: #3c91db;
   color: rgba(255, 255, 255, 0.945);
   display: -ms-flexbox;
   display: flex;
@@ -17,6 +17,24 @@ header {
 
 .box {
   height: 200px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+h2 {
+  height: 100px;
+  margin: 20px 20px 0 20px;
 }
 
 .buttons {
@@ -31,21 +49,38 @@ header {
 }
 
 button {
-  width: 200px;
-  height: 50px;
+  width: 242px;
+  height: 40px;
   margin: 5px;
   padding: 10px;
   background-color: #0275d8;
   color: rgba(255, 255, 255, 0.945);
   border: 1px solid rgba(255, 255, 255, 0.945);
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 a {
-  width: 200px;
-  height: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 220px;
+  height: 20px;
   margin: 5px;
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.945);
+  border-radius: 5px;
   color: rgba(255, 255, 255, 0.945);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+i {
+  padding: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */

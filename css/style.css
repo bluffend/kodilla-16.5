@@ -1,14 +1,17 @@
 main {
   width: 800px;
-  height: 500px;
+  height: 400px;
   background-color: #3c91db;
-  color: rgba(255, 255, 255, 0.945);
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+main, button, a {
+  background-color: #3c91db;
 }
 
 header {
@@ -21,20 +24,19 @@ header {
   margin: 0 auto;
 }
 
+h1, h2, h3, button, a {
+  color: #dbe9ec;
+}
+
 h2, h3 {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
   -ms-flex-pack: center;
       justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
 }
 
 h2 {
-  height: 100px;
-  margin: 20px 20px 0 20px;
+  height: 60px;
 }
 
 .buttons {
@@ -48,16 +50,17 @@ h2 {
       align-items: center;
 }
 
+button, a {
+  border: 2px solid rgba(145, 175, 224, 0.5);
+  border-radius: 5px;
+}
+
 button {
   width: 242px;
   height: 40px;
   margin: 5px;
   padding: 10px;
-  background-color: #0275d8;
-  color: rgba(255, 255, 255, 0.945);
-  border: 1px solid rgba(255, 255, 255, 0.945);
   font-weight: bold;
-  border-radius: 5px;
 }
 
 a {
@@ -70,12 +73,9 @@ a {
   -ms-flex-align: center;
       align-items: center;
   width: 220px;
-  height: 20px;
+  height: 15px;
   margin: 5px;
   padding: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.945);
-  border-radius: 5px;
-  color: rgba(255, 255, 255, 0.945);
   text-decoration: none;
   font-weight: bold;
 }

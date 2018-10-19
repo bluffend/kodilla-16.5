@@ -1,0 +1,39 @@
+main {
+    width: 800px;
+    height: 500px;
+    background-color: #0275d8;
+    color: rgba(255, 255, 255, 0.945);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+header {
+    margin: 0 auto;
+}
+.box {
+    height: 200px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 200px;
+    height: 50px; 
+    margin: 5px;
+    padding: 10px;
+    background-color: #0275d8;
+    color: rgba(255, 255, 255, 0.945);
+    border: 1px solid  rgba(255, 255, 255, 0.945);
+} 
+a {
+    width: 200px;
+    height: 50px; 
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid  rgba(255, 255, 255, 0.945);
+    color: rgba(255, 255, 255, 0.945);
+}

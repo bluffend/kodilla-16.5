@@ -1,0 +1,51 @@
+main {
+  width: 800px;
+  height: 500px;
+  background-color: #0275d8;
+  color: rgba(255, 255, 255, 0.945);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header {
+  margin: 0 auto;
+}
+
+.box {
+  height: 200px;
+}
+
+.buttons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #0275d8;
+  color: rgba(255, 255, 255, 0.945);
+  border: 1px solid rgba(255, 255, 255, 0.945);
+}
+
+a {
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.945);
+  color: rgba(255, 255, 255, 0.945);
+}
+/*# sourceMappingURL=style.css.map */
